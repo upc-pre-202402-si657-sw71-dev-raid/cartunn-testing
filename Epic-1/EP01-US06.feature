@@ -15,8 +15,9 @@ Example: Datos de salida
 Scenario: Visualización de la sección de contact
     Dado que el visitante se encuentra en la <seccion Contacto>
     Cuando el visitante visualice la sección
-    Entonces se mostrarán todas los métodos de contacto de la empresa
+    Entonces se mostrarán todas los <datos de contacto de la empresa>
 Example: Datos de entrada
 | ninguno |
 Example: Datos de salida
-| ninguno |
+| datos de contacto de la empresa |
+| cartunncompany@gmail.com | +62 8221 1222 0001 | Everyday : 08.00-21.00 | Jl. Raya Cihaluan No.112 Tangerang Selatan, Indonesia 41222 |

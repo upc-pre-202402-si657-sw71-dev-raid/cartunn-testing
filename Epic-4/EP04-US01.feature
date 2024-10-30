@@ -5,11 +5,14 @@ Feature: Visualización de productos más importantes
 
 Scenario: Visualización de los productos importantes
     Dado que el cliente se encuentra en la aplicación
-    Cuando el cliente de click en la sección “Client Home”, ubicada en el sidebar
+    Cuando el cliente de click en la sección <Client Home>, ubicada en el sidebar
     Entonces se redirigirá al cliente a la sección Client Home
-    Y se mostrarán todos los productos recomendados y más vendidos
+    Y se mostrarán todos los <productos> recomendados y más vendidos
 
-    Examples:
-        | sección     | productos mostrados                        |
-        | Client Home | Producto A, Producto B, Producto C          |
-        | Client Home | Producto X, Producto Y, Producto Z          |
+Examples: datos de entrada
+| ninguno |
+
+Examples: datos de salida
+    | sección     | productos mostrados |
+    | Client Home | Producto A, Producto B, Producto C |
+    | Client Home | Producto X, Producto Y, Producto Z |

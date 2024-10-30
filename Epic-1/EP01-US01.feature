@@ -6,18 +6,21 @@ Feature: Navegación a través del navbar
 Scenario:: El cliente o visitante se encuentra en el navbar de navegación
     Dado que el visitante se encuentra en la landing page
     Cuando encuentre la sección del navbar, ubicada en la parte superior de la pantalla
-    Entonces se muestran <enlaces de las secciones>, <boton de idiomas> y el <boton para redirigir a la aplicacion web>
+    Entonces se muestran <enlaces de las secciones>(<Product>, <Clients>, 
+    <Plans>, <Contact>, <Our app>, <Our team>), 
+    <boton de idiomas> y el <boton para redirigir a la aplicacion web>
 Example: Datos de entrada
-| boton de idiomas | boton para redirigir a la aplicacion web | enlaces de la secciones |
+| boton de idiomas | boton para redirigir a la aplicacion web | botón Product | botón Clients | botón Plans | botón Contact | botón Our app | botón Our team |
 | EN/ES | Open App | Product | Clients | Plans | Contact | Our app | Our team |
 Example: Datos de salida
 | ninguno |
 Scenario: Navegación interna a través del navbar
     Dado que el visitante se encuentra en el navbar
-    Cuando el visitante de click en cualquiera de las <opciones de navegacion> disponibles del navbar
+    Cuando el visitante de click en cualquiera de las <opciones de navegacion> (<Product>, 
+    <Clients>, <Plans>, <Contact>, <Our app>, <Our team>) disponibles del navbar
     Entonces se redirigirá al visitante a la sección seleccionada
 Example: Datos de entrada
-| opciones de navegacion |
+| botón Product | botón Clients | botón Plans | botón Contact | botón Our app | botón Our team |
 | Product | Clients | Plans | Contact | Our app | Our team |
 Example: Datos de salida
 | ninguno |
