@@ -1,4 +1,4 @@
-Feature: Proceso de Pago de Producto	Como cliente 
+Feature: Proceso de Pago de Producto 
     Como cliente
     Quiero poder pagar en la aplicación los productos seleccionados
     Para que sea más conveniente la adquisición del producto

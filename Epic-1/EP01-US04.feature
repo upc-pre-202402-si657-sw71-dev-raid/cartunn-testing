@@ -1,4 +1,4 @@
-Feature: Navegación a través del navbar
+Feature: Sección Product
   Como un visitante nuevo en CarTunn
   Quiero visualizar una sección que me indique de qué trata la aplicación
   Para tener un mejor entendimiento de la aplicación y sus características

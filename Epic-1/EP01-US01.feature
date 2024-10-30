@@ -3,7 +3,7 @@ Feature: Navegación a través del navbar
     Quiero una barra de navegación en la landing page
     Para tener acceso directo a las diversas secciones de la landing page
 
-Scenario:: El cliente o visitante se encuentra en el navbar de navegación
+Scenario: El cliente o visitante se encuentra en el navbar de navegación
     Dado que el visitante se encuentra en la landing page
     Cuando encuentre la sección del navbar, ubicada en la parte superior de la pantalla
     Entonces se muestran <enlaces de las secciones>(<Product>, <Clients>, 
